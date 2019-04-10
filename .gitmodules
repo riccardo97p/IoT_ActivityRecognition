@@ -1,0 +1,3 @@
+[submodule "Android/BLE_to_DynamoDB"]
+	path = Android/BLE_to_DynamoDB
+	url = https://github.com/riccardo97p/BLE_to_DynamoDB.git
