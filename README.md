@@ -1,1 +1,1 @@
-IoT_ActivityRecognition
+IoT_ActivityRecognition Project
