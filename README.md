@@ -29,6 +29,19 @@ Be careful: for this project we have used free trial periods (30 days for Redash
 
 For the details about each step see our [Hackster.io](https://www.hackster.io/andreanapoletani/activity-recognition-using-genuino-101-and-aws-iot-fbeea2) post!
 
+## How to use
+Follow these steps to try the project:
+* Import and upload the [sketch](https://github.com/riccardo97p/IoT_ActivityRecognition/tree/master/IoT_Arduino) on Genuino 101.
+* Import the [Android app](https://github.com/riccardo97p/BLE_to_DynamoDB.git) on Android Studio.
+* Change ```private static final String CUSTOMER_SPECIFIC_IOT_ENDPOINT = "YOUR_ENDPOINT";``` in the `AWSServiceClient.java` file with your AWS IoT Endpoint.
+* Change
+```  
+    "PoolId": "YOUR_POOLID",
+    "Region": "YOUR_REGION"
+```
+in the `res/raw/awsconfiguration.json` file with your PoolID and Region values.
+* Build and Run the app.
+
 # Useful Links
 * [Project presentation](https://www.slideshare.net/AndreaNapoletani/activity-recognition-137479240) (one technology is changed due to compatibility problems)
 * [Proof of Concept](link)
