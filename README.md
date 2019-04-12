@@ -34,6 +34,7 @@ Follow these steps to try the project:
 * Import and upload the [sketch](https://github.com/riccardo97p/IoT_ActivityRecognition/tree/master/IoT_Arduino) on Genuino 101.
 * Import the [Android app](https://github.com/riccardo97p/BLE_to_DynamoDB.git) on Android Studio.
 * Change ```private static final String CUSTOMER_SPECIFIC_IOT_ENDPOINT = "YOUR_ENDPOINT";``` in the `AWSServiceClient.java` file with your AWS IoT Endpoint.
+* Change ```final String topic = "YOUR_TOPIC";``` in the `AWSServiceClient.java` with the name of your topic.
 * Change
 ```  
     "PoolId": "YOUR_POOLID",
