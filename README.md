@@ -45,7 +45,7 @@ in the `res/raw/awsconfiguration.json` file with your PoolID and Region values.
 
 # Useful Links
 * [Project presentation](https://www.slideshare.net/AndreaNapoletani/activity-recognition-137479240) (one technology is changed due to compatibility problems)
-* [Proof of Concept](https://www.slideshare.net/AndreaNapoletani/activity-recognition-project-140991983)
+* [Proof of Concept](https://www.slideshare.net/AndreaNapoletani/activity-recognition-project-140998235)
 * [Hackster post](https://www.hackster.io/andreanapoletani/activity-recognition-using-genuino-101-and-aws-iot-fbeea2)
 
 ## Authors
